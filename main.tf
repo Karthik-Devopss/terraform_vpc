@@ -15,7 +15,7 @@ resource "aws_vpc" "karthikvpc" {
   instance_tenancy = "default"
 
   tags = {
-    Name = "myvpc"
+    Name = "karthik_vpc"
   }
 }
 resource "aws_subnet" "pubsub" {
